@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #f6d4ff;
+}
+.coin{
+  position: absolute;
+  display: flex;
+  left: 20%;
+}
+.flip{
+  top: 40%;
+  position: absolute;
+  left: 30%;
+  border: none;
+  font-size: 80px;
+  width: 30%;
+  height: 20%;
+}
+.flip:hover{
+  background-color: black;
+  color: white;
+}
